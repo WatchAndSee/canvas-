@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background: url(../images/bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 800px;
+    margin: 15px auto;
+}
+.wrapper canvas{
+    background-color: #fff;
+    border: 1px solid royalblue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-bottom: 20px;
+}
+.wrapper .btn-list{
+    width: 800px;
+   
+}
+.wrapper .btn-list li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.wrapper .btn-list li input{
+    display: block;
+    background:yellow;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+    /* transition-duration:0.2s; */
+}
+.wrapper .btn-list li input:hover{
+    border: 1px solid rebeccapurple;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.3);
+}
